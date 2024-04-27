@@ -1,0 +1,113 @@
+body {
+  background: #09090b;
+  color: #faf9f5;
+  font-family: "Euclid Circular A", "Poppins";
+  padding-top: 36px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#content{
+  margin-bottom: 4rem;
+}
+
+button,
+a {
+  cursor: pointer;
+  transition: 0.3s;
+  color: inherit;
+  font-weight: 600;
+}
+
+nav {
+  width: 100%;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  transition: 0.3s;
+  margin-bottom: 36px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.navbar {
+  padding: 10px 20px !important;
+  background-color: #fff !important;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 4px;
+  cursor: default;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 100px 60px;
+}
+
+p {
+  opacity: 0.6;
+}
+
+section.shaded {
+  background: #0e0e11;
+}
+
+section>img {
+  width: 200px;
+  height: 200px;
+}
+
+section.shaded>img {
+  padding: 20px;
+}
+
+section>p {
+  line-height: 1.7;
+}
+
+.modal-body {
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  border-radius: 16px;
+  padding: 2rem !important;
+}
+
+.modal-body p {
+  font-size: 18px;
+  font-family: "Euclid Circular A", "Poppins";
+  color: #09090b;
+  margin: 0;
+}
+
+.btn-primary{
+  background-color: #09090b !important;
+  outline: 0 !important;
+  border: none !important;
+}
+
+.btn-primary:focus{
+  border-color: #09090b !important;
+  box-shadow: 0 0 0 .1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.form-control:focus {
+  color: #495057;
+  border-color: #09090b !important;
+  box-shadow: 0 0 0 .1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+@media screen and (max-width: 769px) {
+  h2{
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h2{
+    font-size: 1.2rem !important;
+  }
+}
